@@ -111,7 +111,7 @@ async def whois(ctx, user: str):
       cc = ", Not a content creator"
     await ctx.reply(f"{user}{hacker}{mod}{cc}. Source: https://replit.com/@{user}")
 @bot.command()
-async def helplink(ctx):
+async def linkhelp(ctx):
   await ctx.send("Under avatar on profile page click edit and add discord username and tag: https://cdn.discordapp.com/attachments/870417952153944115/971981051482214400/Screen_Shot_2022-05-05_at_8.43.46_PM.png https://cdn.discordapp.com/attachments/870417952153944115/971981051834544228/Screen_Shot_2022-05-05_at_8.44.20_PM.png")
 @bot.command()
 async def userepl(ctx, p : str):
